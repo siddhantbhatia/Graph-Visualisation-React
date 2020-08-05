@@ -1,10 +1,15 @@
 var express = require("express");
 var app = express();
+var cors = require("cors");
 
-app.get("/", function (req, res) {
-  res.send("Hello World");
+app.use(cors());
+
+const dataSource = require("./model/data");
+
+app.get("/getData", function (req, res) {
+  res.json(dataSource.data);
 });
 
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+app.listen(3001, () => {
+  console.log("Server running on port 3001");
 });
