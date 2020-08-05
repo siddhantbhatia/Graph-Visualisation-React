@@ -1,10 +1,12 @@
-# Graph Visualisatoin React
+# Graph Visualisation React
 
 Front End: React.js
+
 Back End: Node.js and Express
 
 Graph Library: [react-bar-chart](https://www.npmjs.com/package/react-bar-chart)
 
+![SPA-screenshot](https://user-images.githubusercontent.com/30483239/89445382-a8c00480-d785-11ea-81ed-4a4f962ee960.png)
 
 ## Usage
 
